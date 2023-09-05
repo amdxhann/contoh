@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=on">
+    <title></title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="https://cdn.lineicons.com/3.0/lineicons.css">
+    <link rel="stylesheet" href="css/main.css">
+  </head>
+  <body> 
+    <div class="page homepage"> 
+      <div class="header"><i class="lni lni-menu toggle" id="toggle" onclick="MyToggle()"></i><a class="logo" href="#">Code M </a>
+        <div class="top_right_header">
+          <div class="conteant_search"><i class="lni lni-search-alt icon-search"> </i>
+            <div class="box">
+              <form name="search">
+                <input class="input" type="text" name="text" placeholder=" search e.g card">
+              </form>
+            </div>
+          </div>
+          <div class="user" id="user"><img class="user_img" src="img/user_img.png" alt="user img">
+            <h5 class="user_name">Masheal Altobaity </h5>
+          </div>
+          <div class="notification"><i class="material-icons notif-icon">notifications_none</i><span class="notif_num">24 </span></div>
+        </div>
+      </div>
+      <div class="main_content"> 
+        <section class="sidebar" id="sidebar"><i class="lni lni-close " id="close"></i>
+          <ul class="link_sidebar">
+            <li><a href="#"> <i class="material-icons mm">visibility </i><span class="link_name">Overview</span></a></li>
+            <li><a href="#"> <i class="material-icons"> chat_bubble_outline</i><span class="link_name">Trade</span><span class="num_in_li">19</span></a></li>
+            <li><a href="#"> <i class="lni lni-wallet"></i><span class="link_name">Wallet</span></a></li>
+            <li><a href="#"> <i class="material-icons">donut_large</i><span class="link_name">Transactions</span><span class="num_in_li  num_long_text">10</span></a></li>
+            <li><a href="#"> <i class="material-icons">signal_cellular_alt</i><span class="link_name">Statistics</span></a></li>
+            <li><a href="#"> <i class="material-icons ">tune</i><span class="link_name">Settings</span></a></li>
+          </ul>
+          <ul class="last_sidebar">
+            <li><a href="#">Referral</a></li>
+            <li><a href="#">Logout</a></li>
+          </ul>
+        </section>
+        <main class="contentPage" id="contentPage"> 
+          <div class="container">
+            <div class="section top_page">   
+              <div class="head_page">
+                <h1 class="title">User Management System Overview</h1>
+                <div class="link_acount">
+                  <ul> 
+                    <li><a href="#">Accounts</a></li>
+                    <li> |</li>
+                    <li><a href="#">Mashael Altobity<i class="material-icons arrow_icon">arrow_drop_up</i></a></li>
+                  </ul>
+                </div>
+              </div>
+              <div class="sub_head">
+                <h3>Overview</h3><i class="material-icons calender_icon">event_available</i>
+              </div>
+            </div>
+            <div class="section body_content">
+              <section class="content_statistics">
+                <div class="box_stat" id=" Transaction">
+                  <div class="choose_icon"><i class="material-icons" id="click_icon1">more_vert</i>
+                    <ul class="choose_lest" id="choose_lest1">
+                      <li><a href="#">View</a></li>
+                      <li><a href="#">Delete</a></li>
+                    </ul>
+                  </div>
+                  <div class="middle">
+                    <div class="progress">
+                      <svg>
+                        <defs>
+                          <linearGradient id="gradient" x1="0%" y1="0%" x2="0%" y2="100%">
+                            <stop offset="0%" stop-color="#d53a9d"></stop>
+                            <stop offset="100%" stop-color="#522999"></stop>
+                          </linearGradient>
+                        </defs>
+                        <circle class="inder_circle" cx="38" cy="38" r="36">   </circle>
+                        <circle cx="38" cy="38" r="36" stroke="url(#gradient)" transform="rotate(90 50 50)"></circle>
+                      </svg>
+                      <div class="number">
+                        <p>1500 </p>
+                      </div>
+                    </div>
+                    <div class="right">
+                      <h3>Total Number <br> of Transaction</h3>
+                      <p>22.8%<i class="material-icons arrow_icon">arrow_drop_up</i></p>
+                    </div>
+                  </div>
+                </div>
+                <div class="box_stat" id=" Trade">
+                  <div class="choose_icon"><i class="material-icons" id="click_icon2">more_vert</i>
+                    <ul class="choose_lest" id="choose_lest2">
+                      <li><a href="#">View</a></li>
+                      <li><a href="#">Delete</a></li>
+                    </ul>
+                  </div>
+                  <div class="middle">
+                    <div class="progress">
+                      <svg>
+                        <defs>
+                          <linearGradient id="gradient" x1="0%" y1="0%" x2="0%" y2="100%">
+                            <stop offset="0%" stop-color="#d53a9d"></stop>
+                            <stop offset="100%" stop-color="#522999"></stop>
+                          </linearGradient>
+                        </defs>
+                        <circle class="inder_circle" cx="38" cy="38" r="36">   </circle>
+                        <circle class="Trade_circle" cx="38" cy="38" r="36" stroke="url(#gradient)" transform="rotate(90 50 50)"></circle>
+                      </svg>
+                      <div class="number">
+                        <p>43498</p>
+                      </div>
+                    </div>
+                    <div class="right">
+                      <h3>Total Number <br> of Transaction</h3>
+                      <p>11.8%<i class="material-icons arrow_icon">arrow_drop_up</i></p>
+                    </div>
+                  </div>
+                </div>
+                <div class="box_stat" id="rate">
+                  <div class="choose_icon"><i class="material-icons" id="click_icon3">more_vert</i>
+                    <ul class="choose_lest" id="choose_lest3">
+                      <li><a href="#">View</a></li>
+                      <li><a href="#">Delete</a></li>
+                    </ul>
+                  </div>
+                  <div class="middle">
+                    <div class="progress">
+                      <svg>
+                        <defs>
+                          <linearGradient id="gradient" x1="0%" y1="0%" x2="0%" y2="100%">
+                            <stop offset="0%" stop-color="#d53a9d"></stop>
+                            <stop offset="100%" stop-color="#522999"></stop>
+                          </linearGradient>
+                        </defs>
+                        <circle class="inder_circle" cx="38" cy="38" r="36">   </circle>
+                        <circle class="Rate_circle" cx="38" cy="38" r="36" stroke="url(#gradient)" transform="rotate(90 50 50)"></circle>
+                      </svg>
+                      <div class="number">
+                        <p>87%</p>
+                      </div>
+                    </div>
+                    <div class="right">
+                      <h3>Market <br> Rate Value</h3>
+                      <p>11.8%<i class="material-icons arrow_icon">arrow_drop_up</i></p>
+                    </div>
+                  </div>
+                </div>
+              </section>
+              <section class="conversion_rate"> 
+                <div class="top_table">
+                  <h2>Conversion Rate to Naira</h2><i class="material-icons round_icon " id="round_icon">more_vert</i>
+                  <ul class="choose_lest_rate" id="choose_lest_rate1">
+                    <li><a href="#">View</a></li>
+                    <li><a href="#">Delete</a></li>
+                  </ul><i class="lni lni-arrow-right arrow"> </i>
+                </div>
+                <table>
+                  <thead> 
+                    <tr>
+                      <th>iTunes Card</th>
+                      <th> </th>
+                      <th>Amazon Card</th>
+                      <th> </th>
+                      <th>Bitcoin</th>
+                      <th> </th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>   
+                      <td>USA Physical</td>
+                      <td>N400.00</td>
+                      <td>USA Physical</td>
+                      <td>N400.00</td>
+                      <td>Bitcoin BTC</td>
+                      <td>N400.00</td>
+                    </tr>
+                    <tr>   
+                      <td>USA E-Code card</td>
+                      <td>N400.00</td>
+                      <td>USA E-Code card</td>
+                      <td>N400.00</td>
+                      <td>Bitcoin BTC</td>
+                      <td>N400.00</td>
+                    </tr>
+                    <tr>   
+                      <td>UK Physical Card</td>
+                      <td>N400.00</td>
+                      <td>UK Physical Card</td>
+                      <td>N400.00</td>
+                      <td>Bitcoin BTC</td>
+                      <td>N400.00</td>
+                    </tr>
+                    <tr>   
+                      <td>UK E-Code card</td>
+                      <td>N400.00</td>
+                      <td>UKE-Code card</td>
+                      <td>N400.00</td>
+                      <td>Bitcoin BTC</td>
+                      <td>N400.00</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </section>
+              <section class="wallet">
+                <div class="start">
+                  <object class="star1" data="img/star-svg.svg"></object>
+                  <object class="star2" data="img/star-svg.svg"></object>
+                  <object class="star3" data="img/star-go.svg"></object><i class="lni lni-star-filled star4"></i><i class="lni lni-star-filled star5"></i><i class="lni lni-star-filled star6"></i><i class="lni lni-star-filled star7"></i>
+                </div>
+                <div class="top_wallet">
+                  <h2>wallet</h2>
+                  <div class="wrapper"> 
+                    <div class="withdraw_funds">Withdraw Funds</div>
+                  </div>
+                </div>
+                <div class="body_wallet">
+                  <div class="prize_icon"> 
+                    <object class="ob1" data="img/prize-img.svg"></object>
+                  </div><img class="ob2" src="img/prize-img.svg#svgView(viewBox(80,-100,400,550))">
+                  <div class="content_wallet" id="total_earnings"> 
+                    <h3>Total Earnings</h3><span class="num_earnings">#120000.00</span>
+                    <p>please note this's the total sum of ya'<br>transaction here on <b>GOGE AFRICA</b></p>
+                  </div>
+                  <div class="content_wallet" id="balance">
+                    <h3>Balance</h3><span class="num_earnings">#30000.00</span>
+                    <p>please note this the current balance<br> amount left on ya' wallet.</p>
+                  </div>
+                </div>
+              </section>
+              <section class="transaction">
+                <div class="top_transaction">
+                  <h2>Transactions</h2><i class="material-icons round_icon" onclick="lest_active_rate2()">more_vert</i>
+                  <ul class="choose_lest_rate" id="choose_lest_rate2  ">
+                    <li><a href="#">View</a></li>
+                    <li><a href="#">Delete</a></li>
+                  </ul>
+                </div>
+                <table class="body_transaction">
+                  <thead>
+                    <tr>
+                      <th>Date</th>
+                      <th>Transactions ID </th>
+                      <th>Type</th>
+                      <th>Name</th>
+                      <th>Value</th>
+                      <th>Return</th>
+                      <th>Status</th>
+                      <th>Action</th>
+                    </tr>
+                  </thead>
+                  <tbody>   
+                    <tr>   
+                      <td>14/7/2022</td>
+                      <td>12345678</td>
+                      <td><i class="lni lni-bitcoin type_icon"></i></td>
+                      <td>Bitcnin</td>
+                      <td>$100</td>
+                      <td>#18000td </td>
+                      <td class="Status">
+                        <p>completed</p>
+                      </td>
+                      <td><i class="material-icons round_i">more_vert</i></td>
+                    </tr>
+                    <tr>   
+                      <td>14/7/2022</td>
+                      <td>12345678</td>
+                      <td><i class="lni lni-wallet type_icon"></i></td>
+                      <td>Amazon</td>
+                      <td>$100</td>
+                      <td>#18000td </td>
+                      <td class="Status">
+                        <p>Failed</p>
+                      </td>
+                      <td><i class="material-icons round_i">more_vert</i></td>
+                    </tr>
+                    <tr>   
+                      <td>14/7/2022</td>
+                      <td>12345678</td>
+                      <td><i class="lni lni-bitcoin type_icon"></i></td>
+                      <td>Bitcnin</td>
+                      <td>$100</td>
+                      <td>#18000td </td>
+                      <td class="Status">
+                        <p>In Progress</p>
+                      </td>
+                      <td><i class="material-icons round_i">more_vert</i></td>
+                    </tr>
+                    <tr>   
+                      <td>14/7/2022</td>
+                      <td>12345678</td>
+                      <td><i class="lni lni-wallet type_icon"></i></td>
+                      <td>Bitcnin</td>
+                      <td>$100</td>
+                      <td>#18000td </td>
+                      <td class="Status">
+                        <p>completed</p>
+                      </td>
+                      <td><i class="material-icons round_i">more_vert</i></td>
+                    </tr>
+                  </tbody>
+                </table>
+                <div class="more">View More</div>
+              </section>
+            </div>
+          </div>
+        </main>
+      </div>
+    </div>
+  </body>
+</html><script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<script src="js/main.js"></script>
